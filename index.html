@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>K-Drama Roulette</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Mood Selection Modal -->
+  <div id="moodModal" class="modal-overlay">
+    <div class="modal-box">
+      <h2>🌈 Wanna pick based on your mood?</h2>
+      <button id="yesMoodBtn">Yes, please!</button>
+      <button id="noMoodBtn">No, random is fun!</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>K-Drama Roulette</h1>
+
+    <!-- Mood selector hidden by default -->
+    <select id="moodSelect" class="hidden">
+      <option value="">-- Select a Mood --</option>
+      <option value="light-funny">😊 Light & Funny</option>
+      <option value="plot-twists">🌀 Plot Twists</option>
+      <option value="heartwarming">💖 Heartwarming</option>
+      <option value="sad-tearjerker">😢 Sad & Tearjerker</option>
+      <option value="action">🔥 Action Packed</option>
+    </select>
+
+    <!-- Genre selector -->
+    <select id="genreSelect">
+      <option value="">-- Choose Genre --</option>
+    </select>
+
+    <!-- Today's Pick card -->
+    <div class="card" id="todaysPick">
+      <h2>🌟 Today's Pick 🌟</h2>
+      <h3 id="todayTitle"></h3>
+      <p id="todayGenre"></p>
+      <p id="todayDescription"></p>
+      <a id="todayTrailer" href="#" target="_blank">🎬 Watch Trailer</a>
+    </div>
+
+    <!-- Pick Button -->
+    <button id="spinButton">Pick a K-Drama</button>
+
+    <!-- Final Result Card -->
+    <div id="result" class="card hidden">
+      <h2 id="dramaTitle"></h2>
+      <p id="dramaGenre"></p>
+      <p id="dramaDescription"></p>
+      <a id="dramaTrailer" href="#" target="_blank">🎬 Watch Trailer</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
