@@ -8,7 +8,6 @@ Try it out: https://shamaiem10.github.io/Kdrama-Roulette-App/
 - 🎡 Random K-Drama picker
 - 🎭 Genre-based filtering
 - 😊 Mood-based recommendations
-- 🧠 Fun mood quiz
 - 🎀 Soft, glassmorphism-style UI
 - 🎬 Trailer preview links
 
