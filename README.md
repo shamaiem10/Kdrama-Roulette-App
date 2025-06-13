@@ -21,7 +21,7 @@ A cute and aesthetic web app that helps you pick a K-Drama to watch — either r
 ## 🛠️ Tech Stack
 
 - HTML
-- CSS (Glassmorphism & gradient effects)
+- CSS 
 - JavaScript
 - Local JSON file (`kdramas.json`)
 
