@@ -1,6 +1,7 @@
 # 🎬 K-Drama Roulette
 
 A cute and aesthetic web app that helps you pick a K-Drama to watch — either randomly or based on your mood!
+Try it out: https://shamaiem10.github.io/Kdrama-Roulette-App/
 
 ## 💡 Features
 
