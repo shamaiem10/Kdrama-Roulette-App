@@ -27,7 +27,7 @@ A cute and aesthetic web app that helps you pick a K-Drama to watch — either r
 
 ## 📸 Preview
 
-![App Preview](C:\Users\shama\Downloads\Screenshot_13-6-2025_23026_127.0.0.1.jpeg)
+![App Preview](Screenshot_13-6-2025_23026_127.0.0.1.jpeg)
 
 ## 📁 Files
 
