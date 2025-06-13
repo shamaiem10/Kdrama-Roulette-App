@@ -2,8 +2,6 @@
 
 A cute and aesthetic web app that helps you pick a K-Drama to watch — either randomly or based on your mood!
 
-![Screenshot](screenshot.png) <!-- Replace with your actual screenshot file -->
-
 ## 💡 Features
 
 - 🎡 Random K-Drama picker
